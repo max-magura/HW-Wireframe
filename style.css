@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -5,6 +9,7 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 header, nav, section, aside, footer {
@@ -21,8 +26,47 @@ h1, p {
     background: #ebebeb;
 }
 
-.section {
-    width: 495px;
+header {
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+nav {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 495px;
+    height: 250px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+
+article {
+    height: 175px;
+    padding: 30px
+}
+
+aside {
+    width: 445px;
+    height: 250px;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+footer {
+    clear: both;
+    padding: 30px;
+    background-color: green;
+}
+
+
+
+
 
 

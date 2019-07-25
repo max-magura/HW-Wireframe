@@ -16,15 +16,6 @@ header, nav, section, aside, footer {
     background: #ebebeb;
 }
 
-article {
-    color: #ebebeb;
-    background: #777;
-}
-
-h1, p {
-    color: #777;
-    background: #ebebeb;
-}
 
 header {
     padding: 30px;
@@ -39,7 +30,7 @@ nav {
 
 section {
     width: 495px;
-    height: 250px;
+    height: 265px;
     float: left;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -47,13 +38,31 @@ section {
 }
 
 article {
+    color: #ebebeb;
+    background: #777;
+    padding: 20px;
     height: 175px;
-    padding: 30px
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+h1 {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+    padding: 10px;
 }
 
 aside {
     width: 445px;
-    height: 250px;
+    height: 265px;
     float: left;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -62,7 +71,6 @@ aside {
 footer {
     clear: both;
     padding: 30px;
-    background-color: green;
 }
 
 
